@@ -1,0 +1,88 @@
+[
+    {
+        "actionName": "User_Login",
+        "steps": [
+            {
+                "stepId": "STEP91",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1590952155390
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t2.inf",
+                "time": 1590952155857
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SC03_CancelFlight_T01_LaunchPage",
+                "rawStartTime": 1590952154999,
+                "rawEndTime": 1590952155394,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10759091377258301
+            },
+            {
+                "transactionName": "SC03_CancelFlight_T02_Login",
+                "rawStartTime": 1590952155405,
+                "rawEndTime": 1590952155861,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10336732864379883
+            }
+        ]
+    },
+    {
+        "actionName": "Cancel_Flight",
+        "steps": [
+            {
+                "stepId": "STEP93",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t3.inf",
+                "time": 1590952156348
+            },
+            {
+                "stepId": "STEP94",
+                "stepName": "Custom Request: itinerary.pl",
+                "infFile": "t4.inf",
+                "time": 1590952157388
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SC03_CancelFlight_T03_Click_Itinerary",
+                "rawStartTime": 1590952155889,
+                "rawEndTime": 1590952156353,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11272287368774414
+            },
+            {
+                "transactionName": "SC03_CancelFlight_T04_Click_CancelChecked",
+                "rawStartTime": 1590952157123,
+                "rawEndTime": 1590952157391,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09387755393981934
+            }
+        ]
+    },
+    {
+        "actionName": "User_SignOff",
+        "steps": [
+            {
+                "stepId": "STEP95",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1590952157772
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SC03_CancelFlight_T05_SignOff",
+                "rawStartTime": 1590952157409,
+                "rawEndTime": 1590952157776,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08184099197387696
+            }
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SC03_WebTours_FlightCancellation.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=en-IN
+Encoding=
+[Actions]
+vuser_init=vuser_init.c
+User_Login=User_Login.c
+Cancel_Flight=Cancel_Flight.c
+User_SignOff=User_SignOff.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+User_Login=1
+Cancel_Flight=1
+User_SignOff=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+User_Login=0
+Cancel_Flight=1
+User_SignOff=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+User_Login=1
+Cancel_Flight=1
+User_SignOff=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+User_Login=cci
+Cancel_Flight=cci
+User_SignOff=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SC03_CancelFlight_T01_LaunchPage__*delimiter*__SC03_CancelFlight_T02_Login__*delimiter*__SC03_CancelFlight_T03_Click_Itinerary__*delimiter*__SC03_CancelFlight_T04_Click_CancelChecked__*delimiter*__SC03_CancelFlight_T05_SignOff"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+SC03_CancelFlight_T01_LaunchPage=
+SC03_CancelFlight_T02_Login=
+SC03_CancelFlight_T03_Click_Itinerary=
+SC03_CancelFlight_T04_Click_CancelChecked=
+SC03_CancelFlight_T05_SignOff=

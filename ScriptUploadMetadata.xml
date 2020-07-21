@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>SC03_WebTours_FlightCancellation_Dynamic_Body</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="User_Login.c" Filter="2" />
+    <FileEntry Name="Cancel_Flight.c" Filter="2" />
+    <FileEntry Name="User_SignOff.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="SC03_WebTours_FlightCancellation_Dynamic_Body.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="SC03_WebTours_FlightCancellation.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="InputDataset.csv" Filter="2" />
+    <FileEntry Name="server-details.csv" Filter="2" />
+    <FileEntry Name="combined_SC03_WebTours_FlightCancellation_Dynamic_Body.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="204570125440.idx" Filter="1" />
+    <FileEntry Name="53116418440.idx" Filter="1" />
+    <FileEntry Name="5311641844_AP3.475.idx" Filter="1" />
+    <FileEntry Name="5311641844_elp.571.idx" Filter="1" />
+    <FileEntry Name="5311641844_GIG.57.idx" Filter="1" />
+    <FileEntry Name="5311641844_h7x.905.idx" Filter="1" />
+    <FileEntry Name="5311641844_ozs.917.idx" Filter="1" />
+    <FileEntry Name="5311641844_UEe.189.idx" Filter="1" />
+    <FileEntry Name="5311641844_x2l.805.idx" Filter="1" />
+    <FileEntry Name="5311641844_xd0.3.idx" Filter="1" />
+    <FileEntry Name="5311641844_xVf.239.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv2QC.583.log" Filter="1" />
+    <FileEntry Name="mdrvgUF.685.log" Filter="1" />
+    <FileEntry Name="mdrvhZ7.583.log" Filter="1" />
+    <FileEntry Name="mdrvjAN.191.log" Filter="1" />
+    <FileEntry Name="mdrvx9D.573.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="SC03_WebTours_FlightCancellation.prm.bak" Filter="1" />
+    <FileEntry Name="SC03_WebTours_FlightCancellation_Dynamic_Body.c.pickle" Filter="1" />
+    <FileEntry Name="SC03_WebTours_FlightCancellation_Dynamic_Body.ci" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sun, 31 May 2020 19:08:58 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Swastik&address2&Ranchi&username&sp420&hash&112&lastName&Kumar%0A&address1&Unit-5&creditCard&5847%201023%206890%204851&expDate&11%2F25%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
